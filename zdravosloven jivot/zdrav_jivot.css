@@ -1,0 +1,41 @@
+/* style, id - #; class - . , tag vytr stil, tag vynsh stil */
+.zaglavna_lenta
+{
+	position:absolute;
+	top:80px;
+	border:2px dotted green;
+	padding:3px;
+	margin:3cm;
+	width:80%;
+	height:30px;
+}
+.zaglavie
+{
+	position:absolute;
+	top:250px;
+	font-size:50px;
+	text-align:center;
+}
+.text
+{
+	position:absolute;
+	top:350px;
+	font-size:20px;
+	text-align:left;
+}
+.text_pos
+{
+	color:white;
+	position:absolute;
+	top:350px;
+	font-size:20px;
+	text-align:left;
+}
+.forma_left
+{
+	text-align:left;
+}
+.forma_right
+{
+	text-align:right;
+}

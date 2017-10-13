@@ -1,0 +1,184 @@
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="zdrav_jivot.css" />
+<style type="text/css">
+body{background:url("community linking hands_136056599.jpg");
+background-size:500px 500px;}
+table{
+text-align:center;
+}
+span{font-size:30px;}
+td{
+text-align:center;
+}
+</style>
+</head>
+<body>
+<table width="100%" height="160px"> 
+<tr>
+<td align="center">
+<a href="index.html">
+<img src="logo_zz_sait.jpg" width="832px" height="160px"/>
+</a>
+</td>
+</tr>
+</table>
+<table class="zaglavna_lenta" cellpadding="3px" cellspacing="3px">
+<tr>
+<td width="20%">
+<a href="joga.html">Йога</a>
+</td>
+<td width="20%">
+<a href="pos.html" >Позитивно мислене</a>
+</td>
+<td width="20%">
+<a href="diets.html">Диети</a>
+</td>
+<td width="20%">
+<a href="about.html">За здравословното хранене</a>
+</td>
+<td width="20%">
+<a href="shop.html">Био магазин</a>
+</td>
+</tr>
+</table>
+<table width="100%" >
+<tr>
+<td class="zaglavie" width="100%">
+Био магазин
+</td>
+</tr>
+<tr>
+<td class="text" width="100%">
+<form action="zdrav_jivot.php" method="post">
+<table cellspacing="5px">
+<tr>
+<td width="23%"><img src="20110729083625mukoplant.jpg"/>
+</td>
+<td width="23%"><span>МУКОПЛАНТ</span><br/>
+Евкалиптов балсам при простуда S
+<br/>
+<span>Цена: 4.00 лв.</span> 
+</td>
+<td width="23%"><img src="icarov-strii.jpg"/>
+</td>
+<td width="23%"><span>
+Икаров масло анти-целулитно хвойна 125 мл.</span><br/>
+Антицелулитно масло хвойна Икаров
+<br/>
+<span>Цена: 6.30 лв. </span> 
+</td>
+</tr>
+<tr>
+<td width="23%"><img src="biodent-spray-za-garlo.jpg"/>
+</td>
+<td width="23%"><span>Биодент спрей уста с прополис, салвия, смрадлика 120 мл.</span><br/>
+Без алкохол, консервант и оцветител
+<br/>
+<span>Цена: 3.75 лв. </span> 
+</td>
+<td width="23%"><img src="mujik-koren.jpg"/>
+</td>
+<td width="23%"><span>Мужик корен сол. 20 мл.</span><br/>
+<br/>
+<span>Цена: 24.60 лв.  </span> 
+</td>
+</tr>
+
+
+
+
+<tr>
+<td><span>Поръчване на продукт:</span>
+</td>
+</tr>
+<tr>
+<td class="forma_right">Име на клиента:
+</td>
+<td class="forma_left"><input type="text" name="ime" size="15"/>
+</td>
+</tr>
+<tr>
+<td class="forma_right">Презиме на клиента:
+</td>
+<td class="forma_left"><input type="text" name="ime2" size="15"/>
+</td>
+</tr>
+<tr>
+<td class="forma_right">Фамилия на клиента:
+</td>
+<td class="forma_left"><input type="text" name="ime3" size="15"/>
+</td>
+</tr>
+<tr>
+<td class="forma_right">Адрес на клиента:
+</td>
+<td class="forma_left"><input type="text" name="address" size="30"/>
+</td>
+</tr>
+<tr>
+<td class="forma_right">Телефон:
+</td>
+<td class="forma_left"><input type="text" name="tel" size="30"/>
+</td>
+</tr>
+<tr>
+<td class="forma_right">Моля изберете продукт(и):
+</td>
+</tr>
+<tr><td class="forma_right">
+</td>
+<td class="forma_left"><input type="checkbox" name="produkt" value="muko"/>МУКОПЛАНТ<br/>  Брой:
+<select name="broi">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+</select>
+</td>
+</tr>
+<tr><td class="forma_right">
+</td>
+<td class="forma_left"><input type="checkbox" name="produkt" value="maslo"/>Икаров масло<br/>  Брой:
+<select name="broi">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+</select>
+</td>
+</tr>
+<tr><td class="forma_right">
+</td>
+<td class="forma_left"><input type="checkbox" name="produkt" value="biodent"/>Биодент спрей уста<br/>  Брой:
+<select name="broi">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+</select>
+</td>
+</tr>
+<tr><td class="forma_right">
+</td>
+<td class="forma_left"><input type="checkbox" name="produkt" value="mujik"/>Мужик корен<br/>  Брой:
+<select name="broi">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+</select>
+</td>
+</tr>
+<tr>
+<td class="forma_right"><input type="submit" value="Закупуване"/>
+</td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+</body>
+</html>
